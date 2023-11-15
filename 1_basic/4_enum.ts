@@ -26,10 +26,12 @@ function runWork(){
     }
 }
 
+console.log(runWork() === 'DONE');
 console.log(runWork() === 'DONNE');
 
+// 자바스크립트에서는 이렇게 일일히 선언해주고 사용했다.
 const doneState = 'DONE';
-const loadingState = 'LOADGNG';
+const loadingState = 'LOADING';
 const errorState = 'ERROR';
 const initialState = 'INITIAL';
 
@@ -49,6 +51,7 @@ function runWork2(){
 }
 
 console.log(runWork2() === doneState);
+// 실제 String으로 비교를 안하고 변수로 비교를 할 수 있다. 이는 위의 사례처럼 DONNE 같은 스펠링 오류를 막을 수 있다.
 
 enum State {
     DONE = 'DONE',
@@ -73,4 +76,5 @@ function runWork3(){
 }
 
 console.log(runWork3() === State.DONE);
-console.log(runWork3());
+console.log(runWork3()); // 0으로 출력 -> enum을 선언하면 각각 0,1,2,3 이렇게 부여가 되어서 0번째 인덱스인 done을 의미한다.
+// 지금은 DONE = "DONE"으로 선언되어서 DONE으로 나온다.

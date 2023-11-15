@@ -17,4 +17,4 @@ console.log(typeof (sampleNumber as string));
 
 let number = 5;
 
-console.log((number as any).toUpperCase());
+// console.log((number as any).toUpperCase());

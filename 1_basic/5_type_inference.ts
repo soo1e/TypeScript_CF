@@ -1,8 +1,9 @@
 /**
  * Type Inference
  * 
- * 타입 추론
+ * 타입 추론 : 타입을 굳이 입력하지 않더라도 타입스크립트가 타입을 유추하는 것.
  */
+
 let stringType = 'string';
 let booleanType = true;
 let numberType = 30;
@@ -24,7 +25,8 @@ const yuJin2 = {
     age: 2003
 };
 
-yuJin2.name = '코드팩토리';
+yuJin2.name = '수원';
+
 console.log(yuJin2);
 
 const yuJin3 = {
@@ -32,7 +34,7 @@ const yuJin3 = {
     age: 2003 as const,
 }
 
-// yuJin3.name = '코드팩토리';
+// yuJin3.name = '수원';
 console.log(yuJin3.name);
 console.log(yuJin2.name);
 
@@ -42,15 +44,17 @@ console.log(yuJin2.name);
 let numbers = [1, 2, 3, 4, 5];
 let numbersAndString = [1, 2, 3, '4', '5', '6'];
 
+numbers.push(6);
 // numbers.push('6');
+
 const number = numbers[0];
 const nos = numbersAndString[0];
 const nos2 = numbersAndString[100];
 
-// tuple
+// tuple -> 정확히 몇 번째에 무슨 값이 있어야 하는지가 정해진다.
 const twoNumbers = [1, 3] as const;
 
 // twoNumbers[0] = 10;
 // twoNumbers.push(100);
 const first = twoNumbers[0];
-const first2 = twoNumbers[3];
+// const first2 = twoNumbers[3];
