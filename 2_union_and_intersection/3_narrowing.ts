@@ -4,12 +4,12 @@
  * Narrowing은 Union 타입에서 더욱 구체적인 타입으로
  * 논리적으로 유추 할 수 있게 되는걸 의미한다.
  */
-// let numberOrString: number | string = 'Code Factory';
+// let numberOrString: number | string = 'Suwon';
 // numberOrString;
-
+//
 // const decimal = 12.3278;
 // console.log(decimal.toFixed(2));
-
+//
 // numberOrString.toFixed();
 
 /**
@@ -32,7 +32,7 @@ let numbOrString: number | string = '아이유';
 numbOrString.toString();
 
 // (2) typeof narrowing
-numbOrString = Math.random() > 0.5 ? 1123 : '아이유';
+numbOrString = Math.random() > 0.5 ? 1111 : '값';
 
 if (typeof numbOrString === 'string') {
     numbOrString;

@@ -27,3 +27,15 @@ U
 %5_any_unknown_never/2_unknown_type.ts,4/b/4b8c7e32461c653e1f805f071eac57de3e13b9eb
 M
 8_object/1_defining_object.ts,8/a/8ac5b743a9230297a24d3e5b4afe9eb579b567bb
+O
+1_basic/3_type_and_interface.ts,d/c/dc4eb50fd44f92c15ea46f3df07c7208383a5c66
+K
+1_basic/5_type_inference.ts,a/8/a8005cc71a04310428c8d2dc26c4cdbfd6aa959a
+C
+1_basic/2_basics.js,a/7/a73e2d6ad8a6e81f35fd84a5a456a0fdb24935d0
+Z
+*2_union_and_intersection/1_union_basics.ts,c/3/c36628798430daad07dd807eaf89f3f248963e24
+a
+12_union_and_intersection/2_intersection_basics.ts,f/f/ffdce4e6c572690f756c151ea2f0dc2d7b304d9a
+W
+'2_union_and_intersection/3_narrowing.ts,7/b/7bb67c6f1babe943e016d4ec876d83257a82b768

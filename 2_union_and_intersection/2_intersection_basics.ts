@@ -16,8 +16,8 @@ interface Contacts{
 type HumanAndContacts = Human & Contacts;
 
 let humanAndContacts: HumanAndContacts = {
-    name: '코드팩토리',
-    age: 32,
+    name: '수원',
+    age: 27,
     phone: '01012341234',
     address: '서울시'
 };

@@ -1,11 +1,11 @@
 /**
  * Union Basics
  * 
- * 유니언은 TS에서 타입을 병합 할 수 있는 수많은 방법중 하나이다.
+ * 유니언은 TS에서 타입을 병합 할 수 있는 수 많은 방법중 하나이다.
  */
 type StringOrBooleanType = string | boolean;
 
-let stringOrBooleanType: StringOrBooleanType = '아이브';
+let stringOrBooleanType: StringOrBooleanType = '수원';
 stringOrBooleanType = true;
 
 // stringOrBooleanType = undefined;
@@ -80,8 +80,8 @@ interface Human {
 type AnimalOrHuman = Animal | Human;
 
 let animalOrHuman: AnimalOrHuman = {
-    name: '최지호',
-    age: 32,
+    name: '채수원',
+    age: 27,
     address: '대한민국',
 }
 
@@ -109,8 +109,8 @@ let animalOrHuman2: {
     age: number;
     address: string;
 } ={
-    name: '최지호',
-    age: 32,
+    name: '수원',
+    age: 27,
     address: '대한민국',
 };
 
@@ -141,8 +141,8 @@ type Cat = {
 type PersonOrCat = Person | Cat;
 
 const personOrCat: PersonOrCat = {
-    // name: '코드팩토리',
-    age: 32,
+    name: '수원',
+    age: 27,
     // breed: 'Yorkshire Terrier',
-    country: '영국',
+    // country: '영국',
 }
