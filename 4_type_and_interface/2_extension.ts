@@ -46,8 +46,9 @@ const idol4: TIdol2 = {
 }
 
 /**
- * extending multiple
+ * extending multiple : 여러 개를 상속 받을 수 있다.
  */
+
 type DogName = {
     name: string;
 }
@@ -63,17 +64,19 @@ type DogBreed = {
 type Dog = DogName & DogAge & DogBreed;
 
 const dog: Dog = {
-    name: '코드팩토리',
-    age: 32,
+    name: '푸푸',
+    age: 7,
     breed: 'Poodl',
 }
 
 interface CatName{
     name: string;
 }
+
 interface CatAge{
     age: number;
 }
+
 interface Cat extends CatName, CatAge{
     breed: string;
 }
@@ -85,25 +88,27 @@ const cat: Cat = {
 }
 
 /**
- * Overrding
+ * Overriding
  */
+
 type THeight = {
     height: number;
 }
 
 type TRectangle = THeight & {
-    height: string;
+    height: string; // number -> string
     width: number;
 }
 
 // const rectangle: TRectangle = {
-//     height:,
+//     height:, // primitive 타입들에 대해 intersection이 생겨서 never 타입 : 중복으로 선언 할거면 같은 타입으로 해야한다!
 //     width: 100,
 // }
 
 type TWidth = {
     width: number | string;
 }
+
 type TRectangle2 = TWidth & {
     width: number;
     height: number;
@@ -119,7 +124,7 @@ interface IHeight{
 }
 
 // interface IRectangle extends IHeight{
-//     height: string;
+//     height: string; -> 중복 선언을 해서 string으로 바뀌어서 불가능!
 //     width: number;
 // }
 
@@ -128,6 +133,6 @@ interface IWidth{
 }
 
 interface IRectangle extends IWidth{
-    width: number;
+    width: number; // narrowing은 가능
     height: number;
 }

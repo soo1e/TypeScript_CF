@@ -22,7 +22,7 @@ type TFunction = (x: number, y: number) => number;
 
 /**
  * Type에서는 할 수 있지만
- * interface에서는 할 수 없는것들
+ * interface에서는 할 수 없는 것 -> 객체라서
  */
 
 // (1) primitive 타입 선언하기
@@ -39,7 +39,7 @@ type TupleType = [number, string];
  * Type은 못하는 것
  */
 
-// interface merging
+// interface merging : 인터페이스 중복 선언을 하면 무한히 중첩시킬 수 있다.
 interface IRectangle {
     height: number;
 }
@@ -56,7 +56,7 @@ let rectangle: IRectangle = {
 // type TRectangle = {
 //     height: number;
 // }
-
+//
 // type TRectangle = {
 //     width: number;
 // }
@@ -64,11 +64,12 @@ let rectangle: IRectangle = {
 /**
  * Interface Merging
  */
+
 class Review {
-    // 프로퍼티
+    // 프로퍼티 : 그냥 primitive로 정의 가능
     getY = (x: number) => { return x };
 
-    // 메서드
+    // 메서드 : 함수처럼 정의
     getX(x: number) {
         return x;
     }
