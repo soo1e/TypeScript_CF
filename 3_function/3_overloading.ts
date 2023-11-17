@@ -20,6 +20,7 @@ function stringOrStrings(member1: string, member2: string, member3:string): stri
  * 각각 아이돌을 각각의 파라미터의 값으로 입력한다.
  * 예) '안유진', '장원영', '레이'
  */
+
 function stringOrStrings(memberOrMembers: string, member2?: string, member3?:string) :string{
     if(member2 && member3){
         return `아이브: ${memberOrMembers}, ${member2}, ${member3}`;
@@ -31,3 +32,4 @@ function stringOrStrings(memberOrMembers: string, member2?: string, member3?:str
 console.log(stringOrStrings('안유진, 장원영, 레이'));
 console.log(stringOrStrings('안유진', '장원영', '레이'));
 // console.log(stringOrStrings('안유진', '장원영'));
+// 오버로딩을 해서 2개의 파라미터만 받는 경우는 불가능

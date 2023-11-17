@@ -14,13 +14,13 @@ console.log(runner((x) => `아이브 멤버: ${x}`));
 type MultiplyTwoNumbers = (x: number, y: number) => number;
 
 const multiplyTwoNumbers: MultiplyTwoNumbers = (x, y)=>{
-    return x+y;
+    return x * y;
 }
 
 /**
  * Interface로 함수 타입 선언하기
  */
-interface IMultiplyTwoNumbers{
+interface IMultiplyTwoNumbers {
     (x: number, y: number): number;
 }
 

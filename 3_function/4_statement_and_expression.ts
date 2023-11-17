@@ -12,8 +12,10 @@ const addTwoNumbersExp = (x: number, y: number) => {
     return x + y;
 }
 
+// 둘의 차이
+
 /**
- * Statement
+ * Statement : 문장으로 선언하면 다 정의해줘야한다.
  */
 function add(x: number, y: number) : number{
     return x + y;
@@ -32,7 +34,7 @@ function divide(x: number, y: number) : number{
 }
 
 /**
- * Expression 
+ * Expression : 함수를 타입화해서 함수를 선언할 때 유용하다.
  */
 type CalculationType = (x: number, y: number) => number;
 

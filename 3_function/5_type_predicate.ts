@@ -1,5 +1,5 @@
 /**
- * Type Predicate
+ * Type Predicate :
  */
 function isNumber(input: any): input is number{
     return typeof input === 'number';
@@ -14,11 +14,11 @@ function isNumberRetBool(input: any): boolean{
 let number: any = 5;
 
 if(isNumberRetBool(number)){
-    number;
+    number; // any 타입
 }
 
 if(isNumber(number)){
-    number;
+    number; // number 타입
 }
 
 interface Doge{
@@ -46,7 +46,7 @@ const doge: DogeOrCat = Math.random() > 0.5 ? {
 }
 
 if(isDoge(doge)){
-    doge;
+    doge; // Doge
 }else{
-    doge;
+    doge; // Cat
 }
