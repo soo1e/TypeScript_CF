@@ -1,11 +1,11 @@
 /**
- * Problems with Array in JS
+ * Problems with Array in JS -> 아무거나 넣을 수 있다.
  */
 const number = [1, '2', 3, '4', 5];
 
 let strings: string[] = ['1', '2', '3'];
 
-// strings.push(1);
+// strings.push(1); number라서 불가능
 
 let stringsOrNumbersArray: (string | number)[] = [
     1,
