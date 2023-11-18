@@ -17,12 +17,12 @@ type TPerson = {
 }
 
 const iPerson: IPerson = {
-    name: '아이유',
-    age: 30,
+    name: '아이',
+    age: 10,
 }
 
 const tPerson: TPerson = {
-    name: '유인나',
+    name: '어른',
     age: 30,
 }
 

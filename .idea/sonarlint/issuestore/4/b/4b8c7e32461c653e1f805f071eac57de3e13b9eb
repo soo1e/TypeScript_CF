@@ -1,0 +1,26 @@
+
+Atypescript:S125'"Remove this commented out code.(ÒµøÍ8îĞ‹Ş½1
+htypescript:S9050"FExpected an assignment or function call and instead saw an expression.(ÿ·Ô‹8şŠŞ½1
+ktypescript:S18481"HEither remove this useless object instantiation of "anyValue" or use it.(Õõîï8ŸşŠŞ½1
+Ftypescript:S1253"Remove this commented out code.(¼ôÛúÿÿÿÿ8 şŠŞ½1
+htypescript:S905@"FExpected an assignment or function call and instead saw an expression.(ßœíÎ8 şŠŞ½1
+Ztypescript:S6571H"7'unknown' overrides all other types in this union type.(§§ñÖ8îÜïİ½1
+Ztypescript:S6571I"7'unknown' overrides all other types in this union type.(ß´•Î8îÜïİ½1
+_typescript:S6571J"7'unknown' overrides all other types in this union type.(ë¿ï‡ÿÿÿÿÿ8îÜïİ½1
+_typescript:S6571K"7'unknown' overrides all other types in this union type.(¹Å¶üÿÿÿÿ8îÜïİ½1
+[typescript:S6571K"3'any' overrides all other types in this union type.(¹Å¶üÿÿÿÿ8îÜïİ½1
+[typescript:S6571L"3'any' overrides all other types in this union type.(´í‘ğøÿÿÿÿ8¡şŠŞ½1
+_typescript:S6571L"7'unknown' overrides all other types in this union type.(´í‘ğøÿÿÿÿ8¡şŠŞ½1
+dtypescript:S6571R"A'unknown' is overridden by other types in this intersection type.(œÔêü8ïÜïİ½1
+ctypescript:S6571S"A'unknown' is overridden by other types in this intersection type.(»‰à8ïÜïİ½1
+dtypescript:S6571T"A'unknown' is overridden by other types in this intersection type.(ıÛñÂ8ïÜïİ½1
+Ztypescript:S4335U"7Simplify this intersection as it always has type "any".(À¢½Ï8ïÜïİ½1
+dtypescript:S6571U"A'unknown' is overridden by other types in this intersection type.(À¢½Ï8ïÜïİ½1
+]typescript:S6571U":'any' overrides all other types in this intersection type.(À¢½Ï8ïÜïİ½1
+Ztypescript:S4335V"7Simplify this intersection as it always has type "any".(¤¼Ïî8¡şŠŞ½1
+]typescript:S6571V":'any' overrides all other types in this intersection type.(¤¼Ïî8¡şŠŞ½1
+dtypescript:S6571V"A'unknown' is overridden by other types in this intersection type.(¤¼Ïî8¡şŠŞ½1
+mtypescript:S905e"FExpected an assignment or function call and instead saw an expression.(‘·˜ªÿÿÿÿÿ8ïÜïİ½1
+htypescript:S905f"FExpected an assignment or function call and instead saw an expression.(Øøç8ïÜïİ½1
+htypescript:S905g"FExpected an assignment or function call and instead saw an expression.(ï°ˆÊ8ïÜïİ½1
+mtypescript:S905h"FExpected an assignment or function call and instead saw an expression.(¾œî€ıÿÿÿÿ8£şŠŞ½1
