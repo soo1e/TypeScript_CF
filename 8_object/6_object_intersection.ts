@@ -1,7 +1,8 @@
 /**
  * Object Intersection
  */
-type PrimitiveIntersection = string & number;
+
+type PrimitiveIntersection = string & number; // never
 
 type PersonType = {
     name: string;
@@ -13,7 +14,7 @@ type CompanyType = {
     companyRegistrationNumber: string;
 }
 
-type PersonAndCompany = PersonType & CompanyType;
+type PersonAndCompany = PersonType & CompanyType; // 모두 충족 해줘야한다. extension
 
 const jisoo: PersonAndCompany = {
     name: '지수',
@@ -30,7 +31,7 @@ type PetType = {
 type CompanyOrPet = PersonType & (CompanyType | PetType);
 
 const companyOrPet: CompanyOrPet = {
-    // PersonType
+    // PersonType는 필수
     name: '코드팩토리',
     age: 32,
 
@@ -42,3 +43,5 @@ const companyOrPet: CompanyOrPet = {
     petName: '오리',
     petAge: 8,
 }
+
+// 모두 넣어도 좋고 pet이나 company 중 하나만 넣어도 가능

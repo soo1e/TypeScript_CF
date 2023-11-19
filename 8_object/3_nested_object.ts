@@ -1,5 +1,5 @@
 /**
- * Nested Object
+ * Nested Object : 객체 안의 객체
  */
 
 type NestedPerson = {
@@ -18,8 +18,10 @@ const codefactory: NestedPerson = {
     nationality: '한국인',
 }
 
+// 객체를 한 번에 선언하는게 좋을까, 나눠서 선언하는게 좋을까
+
 type TPerson = {
-    identity: TPersonIdentity,
+    identity: TPersonIdentity, // 밑에서 만든 객체
     nationality: string;
 }
 
@@ -35,6 +37,9 @@ const iu: TPerson = {
     },
     nationality: '한국인',
 }
+
+// 위에 코드팩토리에서 name을 지우면 에러가 뜨지만 이렇게 나눠서 아이유처럼 name을 지우면 에러를 보기가 편하다
+// nesting된 객체를 타입으로 나눠서 선언하면 에러 볼 때 편하다.
 
 interface IPerson {
     identity: IPersonIdentity;
@@ -53,3 +58,5 @@ const yuJin: IPerson = {
     },
     nationality: '한국인',
 }
+
+// name을 지우면 똑같이 어떤 인터페이스에서 에러가 난지 뜬다. 이것도 좋은 방법이다.

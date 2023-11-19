@@ -16,5 +16,15 @@ const iu = {
     age: 30,
 }
 
+// const iu: TAge = {
+//     name: '아이유', // 불가
+//     age: 30,
+// }
+
+// const iu: TName = {
+//     name: '아이유',
+//     age: 30,  // 불가
+// }
+
 const testName: TName = iu;
 const testAge: TAge = iu;

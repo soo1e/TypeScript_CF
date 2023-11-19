@@ -1,6 +1,8 @@
 /**
  * Object 
  */
+
+// JS
 const codefactory = {
     name: '코드팩토리',
     age: 32,
