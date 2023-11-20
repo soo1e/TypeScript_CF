@@ -61,3 +61,7 @@ K
 -8_object/4_optional_and_undefined_property.ts,a/7/a7616abbce931a18d53962df4469f69917bec588
 Q
 !8_object/6_object_intersection.ts,7/0/707eab1afd51565d8dd308715a4d12f95fe0e0ce
+J
+8_object/5_object_union.ts,4/d/4db4afb8fce9a00968bc29ea34435c55adae29de
+O
+8_object/7_key_value_mapping.ts,b/a/ba92e2e7096104b67d041766f3240e45332d8b48
