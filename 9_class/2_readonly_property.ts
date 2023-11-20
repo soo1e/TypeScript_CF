@@ -1,6 +1,7 @@
 /**
  * readonly 프로퍼티
  */
+
 class Idol {
     readonly name: string;
     age: number;
@@ -14,4 +15,4 @@ class Idol {
 const yuJin = new Idol('안유진', 23);
 
 yuJin.age = 32;
-// yuJin.name = '코드팩토리';
+// yuJin.name = '장원영'; readonly라서 변경 불가능!

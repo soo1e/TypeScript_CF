@@ -8,8 +8,8 @@ class Parent {
 }
 
 class WrongChild extends Parent{
-    // 1) 부모 메서드와 반환 타입이 일치해야한다.
-    // 2) 부모 메서드에 필수인 파라미터들이 존재해야한다.
+    // 1) 부모 메서드와 반환 타입이 일치해야한다. -> string으로 존재해야 한다.
+    // 2) 부모 메서드에 필수인 파라미터들이 존재해야한다. -> string으로 존재해야 한다.
     // 3) 부모 메서드에서 optional인 파라미터들이 자식에서
     //    필수로 지정되면 안된다.
     // shout() {
@@ -17,6 +17,7 @@ class WrongChild extends Parent{
     // }
 }
 
+// 좋은 예
 class Child extends Parent{
     // 1) 부모 메서드와 반환 타입이 일치해야한다.
     // 2) 부모 메서드에 필수인 파라미터들이 존재해야한다.
@@ -26,18 +27,19 @@ class Child extends Parent{
         if(!me){
             return super.shout(name);
         }else{
-            return super.shout(name) + ` 내 이름은 ${me}야!`;
+            return super.shout(name) + ` 내 이름은 ${me}이야!`;
         }
     }
 }
 
 const child = new Child();
 console.log(child.shout('아이유'));
-console.log(child.shout('아이유', '코드팩토리'));
+console.log(child.shout('아이유', '수원'));
 
 /**
  * 속성 override
  */
+
 class PropertyParent{
     name: string;
 
@@ -53,6 +55,7 @@ class PropertyParent{
 //         this.name = name;
 //     }
 // }
+// 불가능
 
 class PropertyParent2 {
     name?: string | number | undefined;

@@ -17,6 +17,7 @@ class Person {
     }
 }
 
+// ! : 초기화가 보장되었다는 의미
 class RouteStack{
     stack!: string[];
 

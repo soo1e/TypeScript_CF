@@ -5,6 +5,7 @@
  * 2) protected - 현재 클래스 및 하위 (자식) 클래스에서 접근 가능하다.
  * 3) private - 현재 클래스 내부에서만 접근 가능하다.
  */
+
 class PropertyTestParent{
     public publicProperty = 'public property';
     protected protectedProperty = 'protected property';
@@ -23,8 +24,8 @@ class PropertyTestChild extends PropertyTestParent{
     test(){
         this.publicProperty;
         this.protectedProperty;
-        // this.privateProperty;
-        // this.#jsPrivateProperty
+        // this.privateProperty; -> 현재 클래스가 아니라 불가능.
+        // this.#jsPrivateProperty -> 마찬가지
     }
 }
 

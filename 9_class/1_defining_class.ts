@@ -1,8 +1,11 @@
 /**
  * Class 선언하기
  */
+
+// 선언법
 class SampleClass { }
 
+// 프로퍼티가 있는 경우 -> 클래스 안에서 프로퍼티를 정의할 경우 타입을 지정해줘야함!
 class Game {
     name: string;
     country: string;
@@ -28,3 +31,4 @@ const starcraft = new Game(
 const retVal = starcraft.introduce();
 
 // starcraft.changeGame();
+// 존재하지 않는 함수는 불가능

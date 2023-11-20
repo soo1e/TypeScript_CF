@@ -9,7 +9,7 @@ class Parent {
     }
 
     dance() {
-        console.log(`parent: ${this.name}이 춤을 춥니다.`);
+        console.log(`parent: ${this.name}가 춤을 춥니다.`);
     }
 }
 
@@ -23,7 +23,7 @@ class Child extends Parent {
     }
 
     sing() {
-        console.log(`child : ${this.name}이 노래를 부릅니다.`);
+        console.log(`child : ${this.name}가 노래를 부릅니다.`);
     }
 }
 
@@ -71,3 +71,5 @@ let child: Child2;
 child = ahri2;
 
 child = cf2;
+
+// age가 optional이기 때문에 가능
