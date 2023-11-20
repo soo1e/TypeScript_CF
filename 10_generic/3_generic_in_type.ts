@@ -3,8 +3,8 @@
  */
 type GenericSimpleType<T> = T;
 
-const genericString: GenericSimpleType<string> = '코드팩토리';
-// const genericString2: GenericSimpleType = '코드팩토리';
+const genericString: GenericSimpleType<string> = '담원';
+// const genericString2: GenericSimpleType = '티원'; -> 불가능
 
 interface DoneState<T>{
     data: T[];

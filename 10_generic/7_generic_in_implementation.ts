@@ -20,7 +20,7 @@ class Idol implements Singer<string, number> {
 }
 
 const yuJin = new Idol('안유진');
-yuJin.sing(2003);
+yuJin.sing(2023);
 
 class Idol2<T, V> implements Singer<T, V> {
     name: T;

@@ -1,6 +1,7 @@
 /**
  * Generic in Promise
  */
+
 const afterTwoSeconds = function () {
     return new Promise((resolve) => {
         setTimeout(() => {

@@ -1,6 +1,7 @@
 /**
  * Generic in Inheritance
  */
+
 class BaseCache<T>{
     data: T[] = [];
 }
@@ -29,7 +30,7 @@ genericChild.message;
 interface BaseGeneric {
     name: string;
 }
-
+// name이 무조건 있어야함
 class Idol<T extends BaseGeneric>{
     information: T;
 
@@ -40,18 +41,20 @@ class Idol<T extends BaseGeneric>{
 
 const yuJin = new Idol({
     name: '안유진',
-    // age: 23,
+    age: 23,
 });
 
 /**
  * keyof 함께 사용하기
  */
+
 const testObj = {
     a: 1,
     b: 2,
     c: 3,
 }
 
+// O라는 구조의 key를 강제하는 구조
 function objectParser<O, K extends keyof O>(obj: O, key: K) {
     return obj[key];
 }
@@ -62,6 +65,7 @@ const val = objectParser(testObj, 'c');
  * Ternary
  * 1=== 2 ? true : false
  */
+
 class Idol2 {
     type?: string;
 }
@@ -78,3 +82,4 @@ type SpecificIdol<T extends Idol2> = T extends MaleIdol ?
     MaleIdol : FemaleIdol;
 
 const idol2: SpecificIdol<MaleIdol> = new MaleIdol();
+const idol3: SpecificIdol<FemaleIdol> = new FemaleIdol();

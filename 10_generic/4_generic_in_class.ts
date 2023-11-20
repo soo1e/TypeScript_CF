@@ -1,6 +1,7 @@
 /**
  * Class에서 Generic 사용하기
  */
+
 class Pagination<Data, Message>{
     data: Data[] = [];
     message?: Message;
@@ -8,9 +9,9 @@ class Pagination<Data, Message>{
 }
 
 const pgData = new Pagination<number, string>();
-pgData.data;
-pgData.message;
-pgData.lastFetchedAt;
+pgData.data; // number[]
+pgData.message; // string | undefined
+pgData.lastFetchedAt; // Date | undefined
 
 class Pagination2<Data, Message>{
     data: Data[] = [];
@@ -27,12 +28,12 @@ class Pagination2<Data, Message>{
 const pagination2 = new Pagination2<number, string>([123, 456]);
 
 pagination2.data;
-pagination2.message;
-pagination2.lastFetchedAt;
+pagination2.message; // string | undefined
+pagination2.lastFetchedAt; // Date | undefined
 
 class DefaultGeneric<T= boolean>{
     data: T[] = [];
 }
 
 const defaultGeneric = new DefaultGeneric();
-defaultGeneric.data;
+defaultGeneric.data; // boolean[]

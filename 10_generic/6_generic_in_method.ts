@@ -18,8 +18,8 @@ class Idol<T>{
 
 const yuJin = new Idol('a999', '안유진');
 
-console.log(yuJin.sayHello('2023'));
-console.log(yuJin.sayHello(1992));
+console.log(yuJin.sayHello('2023')); // string
+console.log(yuJin.sayHello(1992)); // number
 
 class Message<T> {
     sayHello<Time>(logTime: Time, message: T){
