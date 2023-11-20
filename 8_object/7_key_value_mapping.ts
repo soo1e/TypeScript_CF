@@ -62,12 +62,12 @@ type KeyOfUserApiStatus = {
 // 모든 키들이 다 들어와서 마지막을 못 뺐음 여기서 Exclude 유틸리티 사용. Exclude<가져올 타입,제외 값>
 
 type KeyOfUserApiStatus2 = {
-    [k in Exclude<keyof GlobalApiStatus, 'getPosts'>]: GlobalApiStatus[k];
+    [k in Exclude <keyof GlobalApiStatus, 'getPosts'>]: GlobalApiStatus[k];
 }
 
 // 전부 다 옵셔널도 가능
 type KeyOfUserApiStatus3 = {
-    [k in Exclude<keyof GlobalApiStatus, 'getPosts'>]?: GlobalApiStatus[k];
+    [k in Exclude <keyof GlobalApiStatus, 'getPosts'>]?: GlobalApiStatus[k];
 }
 
 interface LoadingStatus {
