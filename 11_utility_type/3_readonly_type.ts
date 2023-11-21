@@ -1,6 +1,7 @@
 /**
  * Readonly Type
  */
+
 interface Cat {
     name: string;
     age: number;
@@ -11,7 +12,7 @@ const nyaong: Cat = {
     age: 8
 };
 
-nyaong.name = '코드팩토리';
+nyaong.name = '수원';
 
 const bori: Readonly<Cat> = {
     name: '보리',

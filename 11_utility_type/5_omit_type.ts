@@ -1,3 +1,7 @@
+/**
+ * Omit Type
+ */
+
 interface Post {
     title: string;
     content: string;

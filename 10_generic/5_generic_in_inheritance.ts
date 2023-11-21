@@ -30,6 +30,7 @@ genericChild.message;
 interface BaseGeneric {
     name: string;
 }
+
 // name이 무조건 있어야함
 class Idol<T extends BaseGeneric>{
     information: T;

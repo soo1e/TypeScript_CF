@@ -65,3 +65,37 @@ J
 8_object/5_object_union.ts,4/d/4db4afb8fce9a00968bc29ea34435c55adae29de
 O
 8_object/7_key_value_mapping.ts,b/a/ba92e2e7096104b67d041766f3240e45332d8b48
+E
+9_class/7_override.ts,c/0/c01899814b4494d514e34237f286fa6caca3b1ff
+K
+9_class/1_defining_class.ts,8/0/807962310a5777631ca7d011cb5ee9fc3383e49f
+N
+9_class/2_readonly_property.ts,8/1/81973c5b1a7ea42bd39097501848b4df0b2323f0
+T
+$9_class/3_property_initialization.ts,5/a/5a88e77fb585b42a57f729fc8f663a209c566231
+T
+$9_class/4_class_as_type_and_value.ts,0/e/0e966de93b25dd2f385ab128120c85bcad53c0a9
+F
+9_class/5_interface.ts,3/6/366f9f32a377f6b6cf7ed5db6677b840a40a177d
+H
+9_class/6_inheritance.ts,b/0/b01c4aa16471882bfa6d22fb3047ae12f48c2ea0
+K
+9_class/8_abstract_class.ts,d/5/d5eecac20cee5a66bf23180f579c4a702eb7a2a0
+O
+9_class/9_visibility_keyword.ts,8/b/8bb2e62fbe415de34e6d7c0c1c561b68cb9fb0ab
+S
+#10_generic/1_generic_in_function.ts,e/f/efbf37d878c587371621ef4879cd0d933af4683b
+T
+$10_generic/2_generic_in_interface.ts,3/1/31bedea231e98f6287a921d1b350266dadc7e1e6
+O
+10_generic/3_generic_in_type.ts,5/8/580214cbfb2cc17085b1026f5f778785af37448a
+P
+ 10_generic/4_generic_in_class.ts,2/7/2704e3ae90d079d7565e62c095215f7fed47fd60
+V
+&10_generic/5_generic_in_inheritance.ts,f/8/f83e2eabb247c70797f9cf889a7d66e42b5bd05c
+Q
+!10_generic/6_generic_in_method.ts,c/d/cd4780155c72cc09157a886de49085721456f8d9
+Y
+)10_generic/7_generic_in_implementation.ts,0/9/09c6beaa9e950b21a4632bc509a4aa220892f972
+R
+"10_generic/8_generic_in_promise.ts,8/c/8c30b437499f37595b7e0c43679eb0ee75c2cb8d

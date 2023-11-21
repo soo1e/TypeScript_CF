@@ -1,3 +1,7 @@
-type stringOnly = Extract<string | boolean | number, string>;
+/**
+ * Extract Type
+ */
 
-type functionOnly = Extract<string | (() => void), Function>;
+type stringOnly = Extract<string | boolean | number, string>; // string
+
+type functionOnly = Extract<string | (() => void), Function>; // function

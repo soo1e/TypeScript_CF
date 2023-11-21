@@ -13,6 +13,7 @@ const yuJin: Idol = {
     groupName: '아이브',
 }
 
+// 인터페이스에서 부분적으로 입력하게 하고 싶을 때 partial<type>
 function updateIdol(original: Idol, updates: Partial<Idol>): Idol{
     return {
         ...original,

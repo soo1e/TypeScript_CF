@@ -1,5 +1,5 @@
 /**
- * Constructor Parameter
+ * Constructor Parameter Type
  */
 class Idol {
     name: string;

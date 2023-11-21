@@ -1,6 +1,7 @@
 /**
- * Required Type
+ * Required Type : 전부 다 필수로 만든다
  */
+
 interface Dog {
     name: string;
     age?: number;
