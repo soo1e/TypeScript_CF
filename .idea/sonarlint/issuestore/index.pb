@@ -127,3 +127,19 @@ V
 tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
 ^
 .12_experimental_decorator/1_class_decorator.ts,8/8/884682b0f9402b57019d7800dc74a87b84e1d121
+_
+/12_experimental_decorator/2_method_decorator.ts,5/4/5465ec528e1e5e63ce8e528f07b84e60026b7b24
+K
+14_namespace/1_namespace.ts,c/8/c86f09e0f3ee7393e5a737426023ca2a72d35fb9
+Z
+*15_import_and_export/1_export_default_1.ts,8/b/8bf2cbcffc696c0af27fe24e7c5d88a0c11c9375
+Z
+*15_import_and_export/1_import_default_2.ts,a/1/a13fbc0ae557554b29a5e4f3e224e4d99a93c3d7
+R
+"15_import_and_export/2_import_2.ts,2/d/2ddc0fe439e4b10cf62b29fb5915f8e743cd0576
+R
+"15_import_and_export/2_export_1.ts,4/0/40dc0becbb968a3509a6f1a3ab8bd4fa80d77398
+l
+<15_import_and_export/3_multiple_ways_to_import_and_export.ts,e/f/efd9c2590bf923bfdf09b3ca29cabfe2d2f1901a
+L
+16_extras/1_infer_keyword.ts,8/f/8ff1c2d41cf47571d8d427e3c07187f517b39d25

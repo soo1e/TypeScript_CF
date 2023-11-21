@@ -1,6 +1,7 @@
 /**
- * Export
+ * Export : 여러 번 사용 가능
  */
+
 export class IdolModel {
     name: string;
     age: number;

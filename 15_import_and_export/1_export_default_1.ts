@@ -1,8 +1,7 @@
 /**
  * Export
  */
-// export default 
-class IdolModel{
+export default class IdolModel{
     name: string;
     age: number;
 
@@ -12,16 +11,14 @@ class IdolModel{
     }
 }
 
-const number = 12;
+// const number = 12;
 
 // export default number;
 
+
+// 타입도 export 가능
 interface ICat{
     name: string;
     breed: string;
 }
 
-export default {
-    IdolModel,
-    number,
-}

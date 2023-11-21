@@ -1,3 +1,5 @@
+// 정확히 명칭을 입력해줘야 한다.
+
 import {IdolModel, rose, number, ICat} from './2_export_1';
 
 const iu = new IdolModel('아이유', 32);
