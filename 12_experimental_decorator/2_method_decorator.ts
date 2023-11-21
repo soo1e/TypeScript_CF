@@ -1,6 +1,7 @@
 /**
  * method decorator
  */
+
 class Idol {
     name: string;
 
@@ -20,6 +21,7 @@ class Idol {
 //        - instance method에 데코레이팅 할경우 인스턴스의 prototype
 // propertyKey - 메서드의 이름
 // descript - property descriptor
+
 function TestMethodDecorator(target: any, propertyKey: string, descriptor: PropertyDescriptor){
     console.log('LogCall');
     console.log('--- target ---');

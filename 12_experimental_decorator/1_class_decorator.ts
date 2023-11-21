@@ -1,6 +1,7 @@
 /**
  * Class Decorator
  */
+
 @Test
 @Frozen
 @LogTest('PROD')
